@@ -294,10 +294,10 @@ export default function App() {
                       is not included and might be significant.{" "}
                       <i>
                         {" "}
-                        By using the Airborne.cam, you agree to be bound by the
+                        By using Airborne.cam, you agree to be bound by the
                         terms of use and disclaimer below.
                       </i>
-                      .
+                      
                     </p>
                     <div className={classes.buttonContainer}>
                       <Button
@@ -1046,7 +1046,7 @@ export default function App() {
                   Dr Leo C.C. Mesquita
                 </Grid>
                 <Grid item xs={12} sm={6}>
-                  Dr Epaminondas Mastorakos
+                  Prof Epaminondas Mastorakos
                 </Grid>
               </Grid>
             </Box>

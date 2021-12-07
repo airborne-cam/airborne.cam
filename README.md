@@ -5,6 +5,6 @@ The indicated risk depends on a number of assumptions and the uncertainties in t
 
 In an effort to keep this app relevant to address the COVID-19 pandemic, the calculation method will be constantly updated to keep up with the latest scientific findings. To know more, please regularly check https://airborne.cam/airbornedotcam.pdf. If you would like to collaborate with us, do get in touch!
 
-If you use Airborne.cam in a publication, we would appreciate if you cited the version that you used. The recommended citation for Airborne.cam is as follows:
+If you use Airborne.cam in a publication, we would appreciate if you cited the following:
 
 Gkantonas, S., Zabotti, D., Mesquita, L. C., Mastorakos, E., & de Oliveira, P. M. (2021). airborne.cam: a risk calculator of SARS-CoV-2 aerosol transmission under well-mixed ventilation conditions. https://doi.org/10.17863/CAM.72192

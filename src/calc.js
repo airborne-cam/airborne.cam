@@ -43,16 +43,16 @@ const roomCalculation = (
   // Convert Time start - end to duration
   const t_max =
     60 *
-    moment(`2000-01-01 ${endDate}`).diff(
-      moment(`2000-01-01 ${startDate}`),
+    moment(`2000-01-02 ${endDate}`).diff(
+      (endDate >= startDate) ? moment(`2000-01-02 ${startDate}`) : moment(`2000-01-01 ${startDate}`),
       'hours',
       true
     )
 
   const breakWhen =
     3600 *
-    moment(`2000-01-01 ${customBreakDate}`).diff(
-      moment(`2000-01-01 ${startDate}`),
+    moment(`2000-01-02 ${customBreakDate}`).diff(
+      (customBreakDate >= startDate) ? moment(`2000-01-02 ${startDate}`) : moment(`2000-01-01 ${startDate}`),
       'hours',
       true
     )
